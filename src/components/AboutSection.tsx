@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import profilePhoto from "@/assets/profile-photo.png";
 
 interface AboutSectionProps {
   content: {
@@ -18,12 +19,21 @@ const AboutSection = ({ content }: AboutSectionProps) => {
 
         <Card className="max-w-4xl mx-auto shadow-card border-primary/20">
           <CardContent className="p-8 md:p-12">
-            <div className="space-y-6 text-lg leading-relaxed">
-              {content.description.map((paragraph, index) => (
-                <p key={index} className="text-muted-foreground">
-                  {paragraph}
-                </p>
-              ))}
+            <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
+              <div className="flex-shrink-0">
+                <img
+                  src={profilePhoto}
+                  alt="Photo de profil"
+                  className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-primary/20 shadow-card"
+                />
+              </div>
+              <div className="space-y-6 text-lg leading-relaxed flex-1">
+                {content.description.map((paragraph, index) => (
+                  <p key={index} className="text-muted-foreground">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
             </div>
           </CardContent>
         </Card>

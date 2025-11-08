@@ -69,7 +69,7 @@ const Index = () => {
           linkedin: "https://linkedin.com",
           github: "https://github.com",
         },
-        cta: "Envoyer un message",
+        cta: "Envoyer",
       },
     },
     en: {
@@ -131,7 +131,7 @@ const Index = () => {
           linkedin: "https://linkedin.com",
           github: "https://github.com",
         },
-        cta: "Send a message",
+        cta: "Send",
       },
     },
   };
