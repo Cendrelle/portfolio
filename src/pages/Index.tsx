@@ -76,6 +76,13 @@ const Index = () => {
             description: "API d'authentification avec JWT et gestion des utilisateurs.",
             tags: ["Django", "DRF", "PostgreSQL"],
             github: "https://github.com/Cendrelle/jwt-auth-module.git",
+          },
+          {
+            title: "Site web restaurant",
+            description: "Un site web de restaurant avec navigation dans le menu et réservation.",
+            tags: ["ReactJs", "Vite", "CSS"],
+            github: "https://github.com/Cendrelle/gourmet-gateway.git",
+            demo: "https://s-r-nia-your-gentle-guide.vercel.app/",
           }
         ],
       },
@@ -155,6 +162,13 @@ const Index = () => {
             description: "An authentication API with JWT and full user management.",
             tags: ["Django", "DRF", "PostgreSQL"],
             github: "https://github.com/Cendrelle/jwt-auth-module.git",
+          },
+          {
+            title: "Site web restaurant",
+            description: "A restaurant website with menu browsing and reservation.",
+            tags: ["ReactJs", "Vite", "CSS"],
+            github: "https://github.com/Cendrelle/gourmet-gateway.git",
+            demo: "https://s-r-nia-your-gentle-guide.vercel.app/",
           }
         ],
       },
