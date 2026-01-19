@@ -14,8 +14,8 @@ const Index = () => {
     fr: {
       hero: {
         greeting: "Bonjour ! 👋",
-        title: "Développeuse Web Backend & Data Science",
-        subtitle: "Passionnée par la création d'applications robustes et l'analyse de données",
+        title: "Développeuse Web Backend ",
+        subtitle: "Développeuse backend spécialisée dans la conception d’API, de sites web et d’applications robustes, avec un intérêt croissant pour la data science et l’exploitation des données.",
         cta: "Me contacter",
       },
       skills: {
@@ -100,8 +100,8 @@ const Index = () => {
     en: {
       hero: {
         greeting: "Hello! 👋",
-        title: "Backend Web Developer & Data Science",
-        subtitle: "Passionate about building robust applications and data analysis",
+        title: "Backend Web Developer",
+        subtitle: "Backend developer specializing in the design of robust APIs, websites and applications, with a growing interest in data science and data exploitation.",
         cta: "Contact me",
       },
       skills: {
